@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_diegopereiraeng_goHelloWorldServer_1724967267775-pr-trigger-input-set
+  identifier: Build_diegopereiraeng_goHelloWorldServer_1724967267775prtriggerinputset
+  orgIdentifier: SE_Sandbox
+  projectIdentifier: ulan
+  pipeline:
+    identifier: Build_diegopereiraeng_goHelloWorldServer_1724967267775
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
