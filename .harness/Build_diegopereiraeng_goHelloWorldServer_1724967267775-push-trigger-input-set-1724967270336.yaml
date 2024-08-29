@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_diegopereiraeng_goHelloWorldServer_1724967267775-push-trigger-input-set
+  identifier: Build_diegopereiraeng_goHelloWorldServer_1724967267775pushtriggerinputset
+  orgIdentifier: SE_Sandbox
+  projectIdentifier: ulan
+  pipeline:
+    identifier: Build_diegopereiraeng_goHelloWorldServer_1724967267775
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
